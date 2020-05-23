@@ -22,8 +22,17 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="maximumSize">
+      <size>
+       <width>125</width>
+       <height>125</height>
+      </size>
+     </property>
      <property name="pixmap">
       <pixmap resource="../bitcoin.qrc">:/images/about</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
@@ -92,9 +101,9 @@
        </property>
        <property name="text">
         <string>
-Copyright © 2009-2012 Bitcoin Developers
-Copyright © 2012 PeerCoin Developers
-Copyright © 2014 TopCoin3 Developers
+Copyright © 2009-2020 Bitcoin Developers
+Copyright © 2012-2020 PeerCoin Developers
+Copyright © 2014-2020 TopCoin3 Developers
 </string>
        </property>
        <property name="textInteractionFlags">
